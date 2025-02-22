@@ -1,0 +1,140 @@
+
+/* login page contents  */
+.logincon {
+    background-image: linear-gradient(to right, #e71bf5, #9e50bb, #4d2ddd);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.liginsecon {
+    background-color: #1deef8;
+    height: 70%;
+    width: 70%;
+    align-self: center;
+    border-top-left-radius: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.signhead {
+    color: white;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.usernameinpt {
+    border: 3px solid #1e2b2b;
+    border-radius: 13px;
+    margin: 9px;
+    padding: 6px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.loginbtn {
+    background-color: #ae2ec2;
+    border-radius: 15px;
+    padding: 7px;
+    color: black;
+    width: 120px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 40px;
+
+}
+
+.creareaccbtn {
+    background-color: white;
+    border-radius: 15px;
+    padding: 7px;
+    color: black;
+    width: 180px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.forgetpasswd {
+    color: black;
+    font-family: "Roboto";
+    padding-bottom: 17px;
+    text-align: right;
+}
+
+
+
+/* reginstratiion container*/
+.registrationcon {
+    background-image: linear-gradient(to right, #c8a9cd, #cd6edd, #c624e1, #da0cfc);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100vh;
+    padding: 20px;
+}
+
+.registrationinnercon {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    align-self: center;
+    border-radius: 8px;
+
+}
+
+.registerhead {
+    font-weight: bold;
+    font-family: "Roboto";
+    padding-bottom: 14px;
+    text-decoration: underline #fe840a;
+    font-size: 50px;
+
+}
+
+.labelFulname {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.registeration_inptelement {
+    border: 1px #716d69 solid;
+    padding: 9px;
+    width: 80%;
+    font-family: "Roboto";
+}
+
+.radiobtn {
+    border: 3px solid;
+}
+
+.formelementcon {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.genderlabelelement {
+    font-size: 30px;
+    padding-right: 14px;
+}
+
+.register_createaccbtn {
+    color: white;
+    background-color: #ff9301;
+    border-radius: 30px;
+    padding: 6px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 27px;
+
+}
+
+.createbtncon {
+    text-align: center;
+}
