@@ -1,0 +1,684 @@
+
+/* login page contents  */
+.logincon {
+  background-image: linear-gradient(to right, #e71bf5, #9e50bb, #4d2ddd);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.liginsecon {
+  background-color: #1deef8;
+  height: 70%;
+  width: 70%;
+  align-self: center;
+  border-top-left-radius: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.signhead {
+  color: white;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.usernameinpt {
+  border: 3px solid #1e2b2b;
+  border-radius: 13px;
+  margin: 9px;
+  padding: 6px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.loginbtn {
+  background-color: #ae2ec2;
+  border-radius: 15px;
+  padding: 7px;
+  color: black;
+  width: 180px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 40px;
+
+}
+
+.creareaccbtn {
+  background-color: white;
+  border-radius: 15px;
+  padding: 7px;
+  color: black;
+  width: 180px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.forgetpasswd {
+  color: black;
+  font-family: "Roboto";
+  padding-bottom: 17px;
+  text-align: right;
+}
+
+
+
+/* reginstratiion container*/
+.registrationcon {
+  background-image: linear-gradient(to right, #c8a9cd, #cd6edd, #c624e1, #da0cfc);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.registrationinnercon {
+  height: 100%;
+  width: 70%;
+  background-color: rgb(169, 212, 232);
+  padding: 20px;
+  align-self: center;
+  border-radius: 8px;
+
+}
+
+.registerhead {
+  font-weight: bold;
+  font-family: "Roboto";
+  padding-bottom: 14px;
+  text-decoration: underline #fe840a;
+  font-size: 50px;
+  color:  #fe840a;
+
+}
+
+.labelFulname {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #484646;
+}
+
+.registeration_inptelement {
+  border: 1px #716d69 solid;
+  padding: 9px;
+  width: 80%;
+  font-family: "Roboto";
+}
+
+.radiobtn {
+  border: 3px solid;
+  align-self: center;
+}
+
+.formelementcon {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.genderlabelelement {
+  font-size: 30px;
+  align-self: center;
+  color: #484646;
+}
+.genderconta{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.register_createaccbtn {
+  color: white;
+  background-color: #ff9301;
+  border-radius: 30px;
+  padding: 6px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 27px;
+
+}
+
+.createbtncon {
+  text-align: center;
+}
+
+
+
+/* style scc */
+
+.lines {
+    height: 2px;
+    width: 100%;
+    color: black solid;
+    background-color: #737373;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+#nav_color {
+    color: black;
+    font-family: italic;
+}
+
+#nav_color:hover {
+    color: blue;
+    font-size: 17px;
+}
+
+.nav_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.firstpage_con {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.firstpg_innercon {
+
+    border-radius: 14px;
+    background-color: #0dd7f7;
+    width: 100%;
+    height: 100%;
+}
+
+.navbarimg {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.cardtotal_con {
+    padding-top: 80px;
+
+    padding-bottom: 25px;
+}
+
+.first_cardcon {
+    height: 290px;
+    width: 100%;
+    border-radius: 19px;
+    background-color: white;
+    text-align: left;
+
+
+}
+
+.cardimg {
+    height: 170px;
+    width: 100%;
+    background-size: cover;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+
+.description {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.description_para {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 25px;
+}
+
+.card_openbtn {
+    background-color: green;
+    color: black;
+    border-radius: 16px;
+    margin: 5px;
+    padding: 5px;
+    align-self: center;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+}
+
+/* From Uiverse.io by SteveBloX */
+.card {
+    margin-top: 20px;
+    margin-left: 9px;
+    box-sizing: content-box;
+    width: 80%;
+    height: 334px;
+    background: rgba(217, 217, 217, 0.58);
+
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+
+    border-radius: 17px;
+
+    cursor: pointer;
+    transition: all 0.5s;
+
+
+    font-weight: bolder;
+    color: black;
+}
+
+.card:hover {
+    border: 1px solid black;
+    transform: scale(1.02);
+}
+
+.card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.fitems {
+    Display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.cardinn_card {
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* contact us section*/
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+
+.containers {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    background-color: #003b5b;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+#submit {
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #333333;
+}
+
+
+
+
+
+/*contact contact*/
+
+
+
+
+.send_message_bgcontainer {
+    background-color: #4CC9F0;
+    height: 100%;
+    padding: 15px;
+    flex-grow: 1;
+
+
+}
+
+.send_message_head {
+    font-size: 35px;
+}
+
+.contact_name {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 11px;
+    padding-left: 10px;
+}
+
+.contact_us_bgcontainer {
+    background-color: #010127;
+    height: 100%;
+    padding: 24px;
+    width: 100%;
+    border-radius: 13px;
+}
+
+.contact_us_head {
+    color: white;
+    font-size: 35px;
+}
+
+.contact_us_para {
+    color: white;
+    font-size: 25px;
+
+}
+
+.call_img {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.call_para {
+    color: #DBE9F4;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.contact_span {
+    font-size: 30px;
+    color: white;
+}
+
+.about_uscon_head {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.about_uscon_email {
+    color: blue;
+}
+
+.about_uscon_name {
+    font-size: 20px;
+    padding-left: 20px;
+    color: black;
+}
+
+.line {
+    height: 5px;
+    color: white;
+    list-style: solid;
+    outline-color: black;
+}
+
+
+
+
+
+/*faq question */
+
+.faq_question_bgcontainer {
+    background-color: #2C3D5B;
+    padding: 10px;
+
+}
+
+.approach_head {
+    color: orange;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1E2D44;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.faq {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #2C3D5B;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #405075;
+    padding: 10px;
+}
+
+.faq-question {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #405075;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #29374D;
+    padding: 0 20px;
+    border-left: 3px solid #405075;
+}
+
+.faq-answer p {
+    padding: 15px 0;
+    margin: 0;
+    color: white;
+    font-size: 16px;
+}
+
+/* second page container*/
+.align {
+    text-align: center;
+}
+
+.galary {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    overflow-x: scroll;
+    margin-top: 86px;
+    margin-bottom: 30px;
+    background-color: #fecae9;
+
+}
+
+.galary_past_photos {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    overflow-x: scroll;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #fecae9;
+}
+
+.galary_item {
+    min-width: 75%;
+
+}
+
+.galary_image {
+    width: 370px;
+    height: 200px;
+    border-radius: 7px;
+    background-size: cover;
+    margin: 8px;
+}
+
+.second_backbtn {
+    height: 37px;
+    text-align: center;
+    border-width: 2px;
+    font-weight: bold;
+    width: 90px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    background-color: #E79796;
+    margin-bottom: 40px;
+
+}
+
+.second_backbtn:hover,
+.second_backbtn:focus {
+    box-shadow: 0px 0px 14px #FF6EC7;
+}
+
+.second_bg_color {
+    background-color: #F5FEFD;
+    width: 100%;
+    padding: 10px;
+}
+
+.upcomming_event {
+    font-size: 25px;
+    color: #FF00FF;
+    font-family: "Roboto";
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.event_card {
+    background-color: white;
+    border-radius: 14px;
+    padding: 16px;
+
+}
+
+.event_head {
+    font-size: 22px;
+    color: blue;
+    font-family: "cavated";
+    font-style: italic;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.carosel {
+
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-right: 35px;
+
+}
+
+.carosel_edit {
+    width: 100%;
+    height: 220px;
+}
+
+.date_section {
+    font-size: 20px;
+    color: #00A5E3;
+
+    font-family: "Roboto";
+    font-style: italic;
+}
+
+.info_button {
+    height: 31px;
+    width: 90px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    transition: all 0.50s;
+
+    background-image: linear-gradient(to right, #FBA0E3, #FF6EC7, #FF00FF);
+}
+
+.info_button:hover,
+.info_button:focus {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 11px #fe019a;
+}
+
+
+.spn {
+    color: #36454F;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+
+
+.conform {
+
+    background-color: #DBE9F4;
+    height: 100%;
+    padding-bottom: 10px;
+    padding-top: 70px;
+}
+
+._name {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.gender_head {
+    font-size: 20px;
+}
+
+
+
+.send_message_bgcontainer {
+    background-color: #4CC9F0;
+    height: 100%;
+    padding: 35px;
+
+}
+
+.send_message_head {
+    font-size: 35px;
+}
